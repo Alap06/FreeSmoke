@@ -1,4 +1,22 @@
 {
-  "name": "FreeSmoke",
-  "displayName": "FreeSmoke"
+  "expo": {
+    "name": "FreeSmoke",
+    "slug": "freesmoke",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": true,
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "permissions": [
+        "NOTIFICATIONS"
+      ]
+    },
+    "plugins": [
+      "expo-notifications",
+      "expo-asset"
+    ]
+  }
 }
